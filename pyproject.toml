@@ -42,3 +42,8 @@ test = "pytest"
 [tool.pixi.environments]
 default = { solve-group = "default" }                   # includes ['default] = ['default]
 test = { features = ["test"], solve-group = "default" } # ['default;, 'test']
+
+
+[tool.pyright]
+venvPath = "."
+venv = ".pixi/envs/test"
