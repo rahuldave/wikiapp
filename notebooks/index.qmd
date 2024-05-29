@@ -1,0 +1,28 @@
+---
+title: Wikiapp Docs
+---
+
+Welcome to the documentation for Wikiapp! We are so glad you here.
+
+This library will let you get random wikipedia page excerpts, in any language.
+
+Yeah we know it does not do much! But it is a start.
+
+```bash
+❯ wikiapp
+Waimārama
+Waimārama is a seaside village in Hastings District, Hawke's Bay, New
+Zealand.
+
+❯ wikiapp --language fr
+Changement démocratique (Salvador)
+Le Changement démocratique est un parti politique salvadorien fondé en
+2005. Il est membre de la COPPPAL. Portail de la politique   Portail
+du Salvador
+
+❯ wikiapp -l es
+Santa Bárbara (Salta)
+Santa Bárbara es un pequeño paraje rural ubicado sobre la RN 40 en el
+departamento Cafayate, provincia de Salta, Argentina.
+
+```

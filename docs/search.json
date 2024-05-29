@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Wikiapp Docs",
+    "section": "",
+    "text": "This library will let you get random wikipedia page excerpts, in any language.\nYeah we know it does not do much! But it is a start.\n❯ wikiapp\nWaimārama\nWaimārama is a seaside village in Hastings District, Hawke's Bay, New\nZealand.\n\n❯ wikiapp --language fr\nChangement démocratique (Salvador)\nLe Changement démocratique est un parti politique salvadorien fondé en\n2005. Il est membre de la COPPPAL. Portail de la politique   Portail\ndu Salvador\n\n❯ wikiapp -l es        \nSanta Bárbara (Salta)\nSanta Bárbara es un pequeño paraje rural ubicado sobre la RN 40 en el\ndepartamento Cafayate, provincia de Salta, Argentina."
+  },
+  {
+    "objectID": "console.html",
+    "href": "console.html",
+    "title": "Console Module",
+    "section": "",
+    "text": "from nbdev import show_doc\n\n\n\n\n\n <Command main> (*args:Any, **kwargs:Any)\n\n*This is the console interface to random_page function in wikipedia.py.\nIt comes with cool colors!*"
+  },
+  {
+    "objectID": "wikipedia.html",
+    "href": "wikipedia.html",
+    "title": "Wikipedia Module",
+    "section": "",
+    "text": "from wikiapp.wikipedia import random_page, Page"
+  },
+  {
+    "objectID": "wikipedia.html#examples",
+    "href": "wikipedia.html#examples",
+    "title": "Wikipedia Module",
+    "section": "Examples",
+    "text": "Examples\n\npage = random_page()\nprint(\"TITLE\", page.title)\nprint(\"EXTRACT\", page.extract)\n\nTITLE Chur–Rorschach railway line\nEXTRACT The Chur–Rorschach railway line, also called the Rhine Valley line, is a standard gauge railway line in Switzerland. It belongs to the Swiss Federal Railways (SBB) and is located in the cantons of St. Gallen and the Grisons.\n\n\nIf you do this again, you will get another random page:\n\npage = random_page()\nprint(\"TITLE\", page.title)\nprint(\"EXTRACT\", page.extract)\n\nTITLE Lower Macungie Township, Pennsylvania\nEXTRACT Lower Macungie Township is a township in Lehigh County, Pennsylvania, United States. The township's population was 31,964 as of the 2020 census, making it the second-largest population center in Lehigh County after Allentown and the third-largest population center in the Lehigh Valley metropolitan area after Allentown and Bethlehem.\n\n\nYou can change the language you want:\n\npage = random_page(language=\"fr\")\nprint(\"TITLE\", page.title)\nprint(\"EXTRACT\", page.extract)\n\nTITLE Régis Lespinas\nEXTRACT Régis Lespinas, né le 6 octobre 1984 à Brive-la-Gaillarde (Corrèze), est un joueur français de rugby à XV. Il évolue au poste de demi d'ouverture ou d'arrière."
+  }
+]
