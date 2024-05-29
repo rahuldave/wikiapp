@@ -3688,7 +3688,7 @@ packages:
   name: wikiapp
   version: 0.1.0
   path: .
-  sha256: b042313fb89d91c1170dbd2813e116cf1b0c13efe3e1921a33bd1cea5e0c8650
+  sha256: 55259d4f34c20048cf61c5e95db485aff7897d361bf4efaf6f7a1e893d6d6f19
   requires_dist:
   - coverage[toml] ; extra == 'test'
   requires_python: '>=3.10'
