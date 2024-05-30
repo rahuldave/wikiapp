@@ -7582,16 +7582,8 @@ packages:
 - kind: pypi
   name: watchdog
   version: 4.0.1
-  url: https://files.pythonhosted.org/packages/52/67/62eea67ef31214ea4867b97351ea4f6b3a52dd1c4c93360ff8ad6e4ad72f/watchdog-4.0.1-cp312-cp312-macosx_11_0_arm64.whl
-  sha256: 62c613ad689ddcb11707f030e722fa929f322ef7e4f18f5335d2b73c61a85c28
-  requires_dist:
-  - pyyaml>=3.10 ; extra == 'watchmedo'
-  requires_python: '>=3.8'
-- kind: pypi
-  name: watchdog
-  version: 4.0.1
-  url: https://files.pythonhosted.org/packages/85/e0/2a9f43008902427b5f074c497705d6ef8f815c85d4bc25fbf83f720a6159/watchdog-4.0.1-py3-none-win_amd64.whl
-  sha256: 7577b3c43e5909623149f76b099ac49a1a01ca4e167d1785c76eb52fa585745a
+  url: https://files.pythonhosted.org/packages/a9/eb/8d1f9150dd5e86082913ab15d4fd4bea436186845be1b1752efd19b020d1/watchdog-4.0.1-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: 611be3904f9843f0529c35a3ff3fd617449463cb4b73b1633950b3d97fa4bfb7
   requires_dist:
   - pyyaml>=3.10 ; extra == 'watchmedo'
   requires_python: '>=3.8'
@@ -7606,8 +7598,16 @@ packages:
 - kind: pypi
   name: watchdog
   version: 4.0.1
-  url: https://files.pythonhosted.org/packages/a9/eb/8d1f9150dd5e86082913ab15d4fd4bea436186845be1b1752efd19b020d1/watchdog-4.0.1-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: 611be3904f9843f0529c35a3ff3fd617449463cb4b73b1633950b3d97fa4bfb7
+  url: https://files.pythonhosted.org/packages/52/67/62eea67ef31214ea4867b97351ea4f6b3a52dd1c4c93360ff8ad6e4ad72f/watchdog-4.0.1-cp312-cp312-macosx_11_0_arm64.whl
+  sha256: 62c613ad689ddcb11707f030e722fa929f322ef7e4f18f5335d2b73c61a85c28
+  requires_dist:
+  - pyyaml>=3.10 ; extra == 'watchmedo'
+  requires_python: '>=3.8'
+- kind: pypi
+  name: watchdog
+  version: 4.0.1
+  url: https://files.pythonhosted.org/packages/85/e0/2a9f43008902427b5f074c497705d6ef8f815c85d4bc25fbf83f720a6159/watchdog-4.0.1-py3-none-win_amd64.whl
+  sha256: 7577b3c43e5909623149f76b099ac49a1a01ca4e167d1785c76eb52fa585745a
   requires_dist:
   - pyyaml>=3.10 ; extra == 'watchmedo'
   requires_python: '>=3.8'
@@ -7693,7 +7693,7 @@ packages:
   name: wikiapp
   version: 0.1.0
   path: .
-  sha256: d9adba5e97571113a65339e8ceb6c6e885501a3f3d0171b698248f566980b4f4
+  sha256: 4539c122c45d4fc9e92552ff38e7ad762f0732013f1965449fc433cb08aaaa8e
   requires_dist:
   - coverage[toml] ; extra == 'test'
   - nbdev ; extra == 'docs'
