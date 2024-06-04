@@ -8551,6 +8551,14 @@ packages:
 - kind: pypi
   name: watchdog
   version: 4.0.1
+  url: https://files.pythonhosted.org/packages/a9/eb/8d1f9150dd5e86082913ab15d4fd4bea436186845be1b1752efd19b020d1/watchdog-4.0.1-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: 611be3904f9843f0529c35a3ff3fd617449463cb4b73b1633950b3d97fa4bfb7
+  requires_dist:
+  - pyyaml>=3.10 ; extra == 'watchmedo'
+  requires_python: '>=3.8'
+- kind: pypi
+  name: watchdog
+  version: 4.0.1
   url: https://files.pythonhosted.org/packages/24/01/a4034a94a5f1828eb050230e7cf13af3ac23cf763512b6afe008d3def97c/watchdog-4.0.1-py3-none-manylinux2014_x86_64.whl
   sha256: ac7041b385f04c047fcc2951dc001671dee1b7e0615cde772e84b01fbf68ee84
   requires_dist:
@@ -8561,14 +8569,6 @@ packages:
   version: 4.0.1
   url: https://files.pythonhosted.org/packages/85/e0/2a9f43008902427b5f074c497705d6ef8f815c85d4bc25fbf83f720a6159/watchdog-4.0.1-py3-none-win_amd64.whl
   sha256: 7577b3c43e5909623149f76b099ac49a1a01ca4e167d1785c76eb52fa585745a
-  requires_dist:
-  - pyyaml>=3.10 ; extra == 'watchmedo'
-  requires_python: '>=3.8'
-- kind: pypi
-  name: watchdog
-  version: 4.0.1
-  url: https://files.pythonhosted.org/packages/a9/eb/8d1f9150dd5e86082913ab15d4fd4bea436186845be1b1752efd19b020d1/watchdog-4.0.1-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: 611be3904f9843f0529c35a3ff3fd617449463cb4b73b1633950b3d97fa4bfb7
   requires_dist:
   - pyyaml>=3.10 ; extra == 'watchmedo'
   requires_python: '>=3.8'
@@ -8660,9 +8660,9 @@ packages:
   requires_python: '>=3.8'
 - kind: pypi
   name: wikiapp-rd
-  version: 0.1.1
+  version: 0.1.2
   path: .
-  sha256: 75619cc1233d2141e8785b940f67f30335b89446d7af5544afba9e60b8efd0c1
+  sha256: a72c7ccd74457fb4c91063d60814acef96921a47bc9f8df1f0211e5ba5a84c24
   requires_dist:
   - coverage[toml] ; extra == 'test'
   - nbdev ; extra == 'docs'
